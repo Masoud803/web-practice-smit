@@ -61,3 +61,7 @@ table,tr,th,td{
 form{
     background-color: rgb(187, 204, 204);
 }
+a{
+    color: #030000;
+    text-decoration: none;
+}
