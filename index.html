@@ -3,18 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice Website</title>
+    <title>LOGIN</title>
+    <style>
+        body{
+            background-image: url(./Personal-Portfolio-Website/Images/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
+            color: aliceblue;
+            margin-left: 23%;
+            margin-top: 12%;
+            text-align: center;
+            width: 700px;
+            height: 300px;
+        }
+        ::placeholder{
+            color: black;
+            opacity: 1;
+        }
+        .icon1 {
+            border: 2px solid gray;
+            color: white;
+            width: 40%;
+            padding: 13px;
+            padding-left: 25px;
+            background: url("./Personal-Portfolio-Website/Images/user.png") no-repeat left;
+            background-size: 20px;
+        }
+        .icon2 {
+            border: 2px solid gray;
+            color: white;
+            width: 40%;
+            padding: 13px;
+            padding-left: 25px;
+            background: url("./Personal-Portfolio-Website/Images/password.png") no-repeat right;
+            background-size: 20px;
+        }
+        .btn{
+            background-color: rgb(145, 145, 145);
+            border: 2px solid gray;
+            font-size: x-large;
+            width: 46%;
+            padding: 5px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>HTML Practice Website Project</h1>
-    <p>Hi, This is my practice website for HTML work. It contain my all my practice work and Portfolio Website.</p>
-    <h2>Links To Pages</h2>
-    <ul>
-        <h3>Link To My Portfolio Website</h3>
-        <li><a href="./Personal-Portfolio-Website/index.html">Click Here</a></li>
-        <h3>Link To My Practice Work</h3>
-        <li><a href="./HTML Practice Work/index.html">Click Here</a></li>
-    </ul>
-
+    <div>
+        <form>
+            <h1>USER LOGIN</h1>
+            <input type="text" class="icon1" placeholder="Username" maxlength="25">
+            <br><br>
+            <input type="password" class="icon2" placeholder="Password" maxlength="25">
+            <br><br>
+            <p>Enter Username and Password and Press Login to Enter.</p>
+            <br><br>
+            <button type="submit" class="btn"><a href="./main.html">LOGIN</a>
+            </button>
+        </form>
+    </div>
 </body>
 </html>
