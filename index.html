@@ -11,41 +11,46 @@
             background-size: cover;
         }
         div{
-            color: aliceblue;
-            margin-left: 23%;
+            color: rgb(194, 195, 196);
+            margin-left: 20%;
+            margin-right: 20%;
             margin-top: 12%;
             text-align: center;
-            width: 700px;
-            height: 300px;
         }
         ::placeholder{
             color: black;
             opacity: 1;
         }
-        .icon1 {
-            border: 2px solid gray;
-            color: white;
+        #usern {
+            border: 2px solid rgb(0, 0, 0);
             width: 40%;
             padding: 13px;
-            padding-left: 25px;
-            background: url("./Personal-Portfolio-Website/Images/user.png") no-repeat left;
-            background-size: 20px;
+            border-radius: 40px;
         }
-        .icon2 {
-            border: 2px solid gray;
-            color: white;
+        #passw {
+            border: 2px solid rgb(0, 0, 0);
             width: 40%;
             padding: 13px;
-            padding-left: 25px;
-            background: url("./Personal-Portfolio-Website/Images/password.png") no-repeat right;
-            background-size: 20px;
+            border-radius: 40px;
         }
-        .btn{
+        #btn{
             background-color: rgb(145, 145, 145);
-            border: 2px solid gray;
+            border: 2px solid rgb(0, 0, 0);
             font-size: x-large;
-            width: 46%;
+            width: 45%;
             padding: 5px;
+            border-radius: 40px;
+            margin-left: 20px;
+        }
+        #img1{   
+            background-color: aliceblue;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 50px;
+        }
+        #img2{   
+            background-color: aliceblue;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 50px;
         }
         a{
             color: black;
@@ -57,15 +62,17 @@
     <div>
         <form>
             <h1>USER LOGIN</h1>
-            <input type="text" class="icon1" placeholder="Username" maxlength="25">
+            <img id="img1" src="./Personal-Portfolio-Website/Images/user.png" alt="user">
+            <input type="text" id="usern" placeholder="Username" maxlength="15">
             <br><br>
-            <input type="password" class="icon2" placeholder="Password" maxlength="25">
+            <img id="img2" src="./Personal-Portfolio-Website/Images/password.png" alt="password">
+            <input type="password" id="passw" placeholder="Password" maxlength="10">
             <br><br>
             <p>Enter Username and Password and Press Login to Enter.</p>
             <br><br>
-            <button type="submit" class="btn"><a href="./main.html">LOGIN</a>
-            </button>
+            <button type="submit" id="btn"><a href="./main.html">LOGIN</a></button>
         </form>
+        
     </div>
 </body>
 </html>
