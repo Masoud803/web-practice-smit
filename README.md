@@ -1,2 +1,2 @@
 # web-practice-smit
-For SMIT Web Practice Work
+This Repository is for SMIT Web Practice Work.

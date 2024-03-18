@@ -2,43 +2,83 @@ header, section, footer, article, nav{
     display: block;
 }
 body{
-    color: rgb(0, 0, 0);
-    background-color: #e2d6af;
+    font-size: large;
+    color: rgb(3, 3, 3);
+    background-color: rgb(158, 141, 141);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .wrap{
+    color: rgb(255, 255, 255);
     width: 100%;
-    background-color: #9e9c95;
-    border: 2px solid rgb(105, 27, 27);
+    height: auto;
+    background-image: linear-gradient(to bottom right, #403F44, #1E1B32);
+    border: 2px solid rgb(233, 183, 77);
 }
 header{
-    font-size: x-large;
-    text-align: center;
-    height: 60px;
-    background-color: rgb(209, 198, 196);
+    width: 100%;
+    height: 150px;
+    background-color: rgb(153, 153, 153);
 }
-nav, footer{
-    clear: both;
-    background-color: rgb(209, 198, 196);
-    height: 50px;
+.hnav{
+    width: 100%;
+    height: 63px;
+}
+.hnav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.hnav li{
+    font-size: larger;
     text-align: center;
+    float: left;
+    width: 255.4px;
+    line-height: 60px;
+    border: 1px solid #1E1B32;
+    background-color: rgb(247, 211, 168);
+}
+.hnav a{
+    color: rgb(32, 51, 49);
+    text-decoration: none;
+}
+.hnav a:hover{
+    background-color: rgb(110, 37, 37);
+    color: #e7d884;
+    display: block;
+}
+header h1{
+    color: #1E1B32;
+    text-align: center;
+    font-size: xxx-large;
 }
 footer{
-    height: 60px;
+    clear: both;
+    width: 98.4%;
+    height: 80px;
+    background-color: rgb(153, 153, 153);
     padding: 7px 0px 0px 20px;
 }
-nav ul{
-    margin: 0px;
-    padding: 5px 0px 5px 30px;
+.fnav{
+    width: 100%;
+    height: 63px;
 }
-nav li{
-    display: inline;
-    margin-right: 40px;
+.fnav ul{
+    padding: 0px;
+    list-style: none;
+    margin-left: 25%;
 }
-nav li a{
+.fnav li{
+    font-size: larger;
+    text-align: center;
+    float: left;
+    width: 150px;
+    line-height: 60px;
+}
+.fnav a{
     color: #030000;
+    text-decoration: none;
 }
-nav li a:hover, nav li a.current{
+.fnav a:hover, nav a.current{
     color: #f30f0f;
 }
 section.sec{
@@ -51,17 +91,20 @@ article{
     width: 100%;
 }
 table,tr,th,td{
-    border: 2px solid rgb(105, 27, 27);
+    padding: 8px;
+    border: 2px solid rgb(0, 0, 0);
     border-collapse: collapse;
+    background-color: rgb(128, 126, 126);
 }
+ /* Home Page Section Artical 1 Paragraph */
 #mp{
     font-size:xx-large;
     font-weight: 1100px;
 }
 form{
-    background-color: rgb(187, 204, 204);
+    background-color: rgb(110, 153, 153);
 }
-a{
-    color: #030000;
-    text-decoration: none;
+h1{
+    margin-top: 0%;
+    border: none;
 }
