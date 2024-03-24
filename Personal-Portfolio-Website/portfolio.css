@@ -36,6 +36,7 @@ header{
     line-height: 60px;
     border: 1px solid #1E1B32;
     background-color: rgb(247, 211, 168);
+    opacity: .9;
 }
 .hnav a{
     color: rgb(32, 51, 49);
