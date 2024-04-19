@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, #6889FF, #C668FF);
+            background-size: cover;
+        }
+        form{
+            background-color: white;
+            border-radius: 1%;
+            width: 600px;
+            height: 600px;
+            margin-left: 29%;
+            margin-top: 1%;
+        }
+        fieldset{
+            border: none;
+            margin-left: 40px;
+            font-size: large;
+        }
+        h1{
+            text-align: center;
+            margin-top: 0%;
+            background-color: black;
+            color: aliceblue;
+            padding-bottom: 9px;
+        }
+        .nam{
+            background-color: #ddd2d7;
+            width: 31%;
+            padding: 10px;
+            border-radius: 3%;
+            border: none;
+            margin-left: 6.5%;
+        }  
+        #comp{
+            background-color: #ddd2d7;
+            width: 72.5%;
+            padding: 10px;
+            border: #ddd2d7;
+            border-radius: 3%;
+            margin-left: 1.9%;
+        }
+        #mail{
+            background-color: #ddd2d7;
+            width: 72.4%;
+            padding: 10px;
+            border: #ddd2d7;
+            border-radius: 3%;
+            margin-left: 6.6%;
+        }
+        #phon1{
+            background-color: #ddd2d7;
+            width: 20%;
+            padding: 9px;
+            border: #ddd2d7;
+            border-radius: 3%;
+            margin-left: 6.2%;
+        }
+        #phon2{
+            background-color: #ddd2d7;
+            width: 51%;
+            padding: 10px;
+            border: #ddd2d7;
+            border-radius: 3%;
+            margin-left: .1%;
+        }
+        #sub{
+            background-color: #ddd2d7;
+            width: 75%;
+            padding: 10px;
+            border: #ddd2d7;
+            border-radius: 3%;
+            margin-left: 4.8%;
+        }
+        #subm{
+            width: 110px;
+            padding: 10px;
+            border: none;
+            border-radius: 10%;
+            background-color: red;
+            color: aliceblue;
+        }
+        hr{
+            border: none;
+            height: 2px;
+            background-color: gray;
+            margin-top: -3.6%;
+        }
+        a{
+            padding: 8px;
+            color: wheat;
+            background-color: black;
+            border: 2px solid black;
+            text-decoration: none;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <a href="./index.html">Login Form</a>
+    <a href="../index.html">Main Page</a>
+    <a href="../portfolio-website/index.html">Portfolio Website</a>
+    <form>
+        <h1>Event Registration Form </h1>
+        <hr>
+        <br><br>
+        <fieldset>
+            
+            <label class="lab" for="nam">Name : </label>
+            <input class="nam" type="text" name="fname" placeholder="First Name" maxlength="20" required="required"> 
+            
+            <input class="nam" type="text" name="lname" placeholder="Last Name" maxlength="20" required="required">
+            <br><br>
+            
+            <label for="comp">Company : </label> 
+            <input id="comp" type="text" name="cname" maxlength="30" required="required">
+            <br><br>
+            
+            <label for="mail">Email : </label> 
+            <input id="mail" type="email" name="email" maxlength="30" placeholder="example@.com" 
+            required="required">
+            <br><br>
+
+            <label>Phone : 
+                <select name="area" id="phon1">
+                    <option value="1" selected>Area Code</option>
+                    <option value="2">PK +92 </option>
+                    <option value="3">USA +1 </option>
+                    <option value="4">UK +44 </option>
+                    <option value="5">IND +91 </option>
+                    <option value="6">AFG +93 </option>
+                    <option value="7">AUS +61 </option>
+                    <option value="8">ARG +54 </option>
+                    <option value="9">TUR +90 </option>
+                    <option value="10">SAU +966 </option>
+                </select>
+                <input type="number" id="phon2" name="phone" placeholder="Phone Number">
+            </label>
+            <br><br>
+            <label for="sub">Subject : </label>
+                <select name="type" id="sub">
+                    <option value="0" selected>Choose Option</option>
+                    <option value="1">Bussiness </option>
+                    <option value="2">Trip </option>
+                    <option value="3">Gathering </option>
+                    <option value="4">Meeting </option>
+                    <option value="5">Other </option>
+                </select>
+                <br><br>
+
+                <p>Are You An Existing Customer? </p>
+                <input type="radio" name="ask" id="r1" value="yes">
+                <label for="r1">Yes</label>
+                <input type="radio" name="ask" id="r2" value="no">
+                <label for="r2">No</label>
+                <br><br>
+
+                <button type="submit" id="subm"> REGISTER </button>
+        
+        </fieldset>
+    </form>
+</body>
+</html>

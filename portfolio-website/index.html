@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./portfolio.css">
+</head>
+<body>
+    <Div class="wrap">
+        <header>
+            <h1>Portfolio Website</h1>
+            <nav class="hnav">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Skills/index.html">Skills</a></li>
+                    <li><a href="./Projects/index.html">Projects</a></li>
+                    <li><a href="./Contact/index.html">Contact</a></li>
+                    <li><a href="../index.html">Main</a></li>
+                    <li><a href="../class-task/index.html">Login Form</a></li>
+                    <li><a href="../class-task/event-reg-form.html">Event Reg Form</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="sec">
+            <article>
+                <img src="./Images/bio-img.jpg" alt="Bio Image" width="350" height="350" title="Bio Pic">
+                <p id="mp"> Masaood Shah <img id="speaker" src="./Images/speaker-icon-2.png" alt="speaker icon" title="Name Audio"></img></p>
+                <script>
+                    var audio = new Audio("./Audios/my-name.mp3");
+                    function playaudio() {
+                        audio.play();
+                    }
+                    document.getElementById("speaker").addEventListener("click", playaudio);
+                </script>
+            </article>
+            <article>
+                <h2>BIO:</h2>
+                    <p>My name is <b>Masaood Shah</b> and i am from <b>Peshawar</b>. I am doing <b>BS Computer Science</b> from <b>Sheikh Zayed Islamic Centre University Of Peshawar</b>. Currently i am studying in <i>5th Semester</i>. And i am also doing <i>Web and Mobile app development</i> course from <b>Saylani Mass IT Training Peshawar</b>.</p>
+               <h2>Job Experience:</h2>
+               <ol>
+                    <li>Data Entry In TCS</li>
+                    <li>Computer Operator In Rsheen Fashion Paradise</li>
+                    <li>Assisstant Job At Noosa Screens And Curtains Austraila</li>
+               </ol>
+               <br>
+               <h2>Education:</h2>
+               <table>
+                    <tr>
+                        <th>Education Level</th>
+                        <th>Education Field</th>
+                        <th>Institute Name</th>
+                        <th>Grade</th>
+                        <th>Marks in Percent</th>
+                        <th>Board</th>
+                    </tr>
+                    <tr>
+                        <th>Matric</th>
+                        <td>Science</td>
+                        <td>Islamia Collegiate School</td>
+                        <td>B</td>
+                        <td>75%</td>
+                        <td>BISE Peshawar Board</td>
+                    </tr>
+                    <tr>
+                        <th>FSc</th>
+                        <td>Pre Engineering</td>
+                        <td>Govt Degree College Hayatabad</td>
+                        <td>B</td>
+                        <td>72%</td>
+                        <td>BISE Peshawar Board</td>
+                    </tr>
+                    <tr>
+                        <th>BS</th>
+                        <td>Computer Science</td>
+                        <td>SZIC Peshawar University</td>
+                        <td>A</td>
+                        <td>3.6 CGPA</td>
+                        <td>Peshawar University</td>
+                    </tr>
+                </table>
+                <br><br>
+            </article>
+        </section>
+        <footer>
+            <nav class="fnav">
+                <ul>
+                    <li>
+                        <a href="https://web.facebook.com/masoud.shah.777" target="_blank"><img src="./Images/facebook-icon.png" alt="Facebook Profile Link" title="Facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./Images/linkedin-icon.png" alt="Linkedin Profile Link" title="Linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/masoudshah.777/" target="_blank"><img src="./Images/instagram-icon.png" alt="Instagram Profile Link" title="Instagram"></a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </Div>
+</body>
+</html>

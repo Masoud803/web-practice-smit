@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        body{
+            background-image: url(./Images/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
+            color: rgb(194, 195, 196);
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 12%;
+            text-align: center;
+        }
+        ::placeholder{
+            color: black;
+            opacity: 1;
+        }
+        #usern {
+            border: 2px solid rgb(0, 0, 0);
+            width: 40%;
+            padding: 13px;
+            border-radius: 40px;
+        }
+        #passw {
+            border: 2px solid rgb(0, 0, 0);
+            width: 40%;
+            padding: 13px;
+            border-radius: 40px;
+        }
+        #btn{
+            background-color: rgb(145, 145, 145);
+            border: 2px solid rgb(0, 0, 0);
+            font-size: x-large;
+            width: 44%;
+            padding: 5px;
+            border-radius: 40px;
+            margin-left: 30px;
+        }
+        #img1{   
+            background-color: aliceblue;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 50px;
+        }
+        #img2{   
+            background-color: aliceblue;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 50px;
+        }
+        a{
+            padding: 8px;
+            color: wheat;
+            background-color: black;
+            border: 2px solid black;
+            text-decoration: none;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <a href="./event-reg-form.html">Event Form</a>
+    <a href="../index.html">Main Page</a>
+    <a href="../portfolio-website/index.html">Portfolio Website</a>
+    <div>
+        <form>
+            <h1>USER LOGIN</h1>
+            <img id="img1" src="./Images/user.png" alt="user">
+            <input type="text" id="usern" placeholder="Username" maxlength="15">
+            <br><br>
+            <img id="img2" src="./Images/password.png" alt="password">
+            <input type="password" id="passw" placeholder="Password" maxlength="10">
+            <br><br><br><br>
+            <button type="submit" id="btn">LOGIN</button>
+        </form>
+        
+    </div>
+</body>
+</html>

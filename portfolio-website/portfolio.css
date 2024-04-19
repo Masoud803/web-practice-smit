@@ -1,0 +1,106 @@
+header, section, footer, article, nav{
+    display: block;
+}
+body{
+    font-size: large;
+    color: #1E1B32;
+    background-color: rgb(87, 99, 95);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrap{
+    color: #eeeeee;
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to bottom right, #403F44, #1E1B32);
+    border: 2px solid #641828;
+}
+header{
+    width: auto;
+    height: 130px;
+    background-color: rgb(153, 153, 153);
+}
+.hnav{
+    width: auto;
+    height: 50px;
+}
+.hnav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.hnav li{
+    background-color: rgb(101, 133, 101);
+    font-size: large;
+    text-align: center;
+    float: left;
+    line-height: 50px;
+    width: 183.29px;
+    text-wrap: nowrap;
+}
+.hnav a{
+    color: rgb(32, 51, 49);
+    text-decoration: none;
+}
+.hnav a:hover{
+    background-color: #852338;
+    color: #e7d884;
+    display: block;
+}
+header h1{
+    color: #1E1B32;
+    text-align: center;
+    font-size: 60px;
+    border: none;
+    margin-top: 0%;
+}
+footer{
+    clear: both;
+    width: auto;
+    height: 70px;
+    background-color: rgb(153, 153, 153);
+    padding: 10px 10px 10px 30px;
+}
+.fnav{
+    width: auto;
+    height: 60px;
+}
+.fnav ul{
+    padding: 0px;
+    list-style: none;
+}
+.fnav li{
+    font-size: larger;
+    float: left;
+    width: 150px;
+    line-height: 50px;
+}
+/* .fnav a{
+    color: #030000;
+    text-decoration: none;
+}
+.fnav a:hover, nav a.current{
+    color: #f30f0f;
+} */
+section.sec{
+    float:left;
+    width: 100% ;
+}
+article{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+table,tr,th,td{
+    padding: 8px;
+    border: 2px solid #5d8571;
+    border-collapse: collapse;
+    background-color: rgb(128, 126, 126);
+}
+ /* Home Page Section Artical 1 Paragraph */
+#mp{
+    font-size:xx-large;
+    font-weight: 1100px;
+}
+form{
+    background-color: rgb(110, 153, 153);
+}

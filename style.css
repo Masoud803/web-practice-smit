@@ -1,0 +1,60 @@
+body{
+    color: beige;
+    background-image: linear-gradient(to bottom right, #403F44, #1E1B32);
+    background-size: cover;
+}
+.wrapper{
+    margin-top: -.5%;
+    margin-left: 2%;
+    width: 98%;
+    height: 600px;
+    border: none;
+}
+header{
+    text-align: center;
+    color: #403F44;
+    background-color: aliceblue;
+    margin-left: -3.5%;
+    width: 98%;
+    padding: 40px;
+}
+nav{
+    width: 100%;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+ul li {
+    float: left;
+    width: 240px;
+    background-color: black;
+    line-height: 40px;
+    text-align: center;
+    opacity: .7;
+}
+ul li a{
+    color: burlywood;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: rgb(68, 126, 68);
+    display: block;
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+h1{
+    margin-top: -2%;
+    font-size: xxx-large;
+}
+#mainp{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 100px;
+}
+
